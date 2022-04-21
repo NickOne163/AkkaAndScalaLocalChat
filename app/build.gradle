@@ -28,5 +28,6 @@ dependencies {
     implementation "com.typesafe.akka:akka-cluster-tools_${versions.ScalaBinary}:${versions.AkkaVersion}"
 
 }
+mainClassName = "localchat.MyApp"
 
 
